@@ -21,7 +21,7 @@ window.onload = () => {
 
 // voltar para página incial
 function homePage() {
-  window.location = ('/index.html');
+  window.location = ('index.html');
 }
 
 // CONTAGEM REGRESSIVA
