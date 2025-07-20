@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff7f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #ffc0cb;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 15vh;
+}
+
+.noivos1 {
+  position: relative;
+  top: 0;
+  left: -50px;
+  width: 100px;
+}
+
+.noivos2 {
+  position: relative;
+  top: 0;
+  right: -50px;
+  width: 100px;
+}
+
+.casamento-container {
+  position: absolute;
+  background-color: #ffc0cb;
+  width: 450px;
+  left: 12%;
+  top: 25%;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.cha-container {
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  background-color: #ffc0cb;
+  width: 500px;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+}
+
+.aliance {
+  width: 50px;
+  margin-left: 0;
+}
+
+.pan {
+  width: 50px;
+}
+
+.titlemarriage {
+  float: right;
+  margin-right: 5%;
+  margin-top: 10px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.titlekitchen {
+  float: right;
+  font-family: 'Quicksand', sans-serif;
+  margin-top: 10px;
+  margin-right: 5%;
+  cursor: pointer;
+  padding: 0;
+}
+.presentes {
+  max-width: 600px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.presentes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.presentes li {
+  background-color: #ffe3ec;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.presentes li:hover {
+  transform: scale(1.02);
+  background-color: #ffd6e8;
+}
+
+.presentestwo {
+  max-width: 600px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: none;
+}
+
+.presentestwo ul {
+  list-style: none;
+  padding: 0;
+}
+
+.presentestwo li {
+  background-color: #ffe3ec;
+  margin: 8px 0;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: left;
+  font-size: 16px;
+  transition: transform 0.2s ease;
+}
+
+.presentestwo li:hover {
+  transform: scale(1.02);
+  background-color: #ffd6e8;
+}
+
+.hometxt {
+  background-color: #ffc0cb;
+  width: 200px;
+  border: none;
+  box-shadow: 0 0 50px solid black ;
+  border-radius: 5px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 45%;
+  padding: -80%;
+  cursor: pointer;
+}
+
+.home {
+  color: #333;
+  width: 40px;
+  height: 45px;
+  margin-right: 10px;
+}
+
+.text {
+  text-decoration: none;
+  color: inherit;
+  margin-top: 6px;
+  font-size: 18px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+footer {
+  background-color: #ffc0cb;
+  height: 15vh;
+  margin-top: 10%;
+}
+
+
+.txt p {
+  font-size: 40px;
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: underline;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button.ativo {
+  /* tom de rosa mais forte para indicar ativo */
+  color: black;
+  border: 2px solid black;
+}
+
+button.ativo {
+  background-color: #ffc0cb;
+}
