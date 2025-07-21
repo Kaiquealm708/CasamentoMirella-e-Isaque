@@ -63,13 +63,13 @@ img {
 
 .florais-topo .floral {
   top: -30vh;
-  left: -2vw;
+  left: -5vw;
   transform: rotate(-95deg);
 }
 
 .florais-topo .floral2 {
   top: -29vh;
-  right: -2vw;
+  right: -5vw;
   transform: scaleY(-1) rotate(75deg);
 }
 
