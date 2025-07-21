@@ -1,0 +1,99 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbe2e6;
+  text-align: center;
+  margin-top: 30vh;
+  overflow-x: hidden;
+}
+
+h3,
+h2 {
+  margin-top: 5vh;
+  font-family: "Quicksand", sans-serif;
+}
+
+h1 {
+  margin-top: 10vh;
+  font-family: "Tangerine", cursive;
+  font-size: clamp(40px, 10vw, 100px);
+}
+
+/* Imagens sempre responsivas */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Logo agora com largura máxima e responsiva */
+.logo {
+  width: min(80%, 400px);
+  margin-top: -10vh;
+}
+
+.abertura {
+  margin-top: 80px;
+}
+
+.data {
+  margin-top: 50px;
+  font-family: 'LimeLight', sans-serif;
+  font-size: clamp(24px, 5vw, 50px);
+}
+
+/* Florais topo ajustados */
+.florais-topo {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.florais-topo .floral,
+.florais-topo .floral2 {
+  position: absolute;
+  width: min(50%, 250px);
+  height: auto;
+  opacity: 0.7;
+}
+
+.florais-topo .floral {
+  top: -30vh;
+  left: -2vw;
+  transform: rotate(-95deg);
+}
+
+.florais-topo .floral2 {
+  top: -30vh;
+  right: -5vw;
+  transform: scaleY(-1) rotate(75deg);
+}
+
+footer {
+  background-color: #ffc0cb;
+  height: 15vh;
+  margin-top: 10%;
+}
+
+.txt p {
+  font-size: clamp(20px, 5vw, 40px);
+  padding-top: 50px;
+  font-family: "Quicksand", sans-serif;
+  text-decoration: underline;
+}
+
+.links {
+  margin-top: 10px;
+}
+
+/* HOVER agora aumenta 10% do tamanho atual */
+.one {
+  transition: transform 0.3s ease;
+}
+
+.one:hover {
+  transform: scale(1.1);
+}
