@@ -21,7 +21,7 @@ window.onload = () => {
 
 // voltar para página incial
 function homePage() {
-  window.location = ('index.html');
+  window.location = ('/index.html');
 }
 
 // CONTAGEM REGRESSIVA
@@ -50,3 +50,29 @@ const dataCasamento = new Date("2026-02-22T15:00:00").getTime();
           ${segundos} <span class="label">segundos</span>
         `;
       }, 1000);
+
+const corFiltro = document.getElementById('filtro-cor');
+const catFiltro = document.getElementById('filtro-categoria');
+const itensCha = document.querySelectorAll('.presentestwo li');
+
+function filtrarCha() {
+  const cor = corFiltro.value;
+  const cat = catFiltro.value;
+
+  itensCha.forEach(item => {
+    const itemCor = item.getAttribute('data-cor');
+    const itemCat = item.getAttribute('data-cat');
+
+    const corOk = !cor || itemCor === cor;
+    const catOk = !cat || itemCat === cat;
+
+    if (corOk && catOk) {
+      item.style.display = '';
+    } else {
+      item.style.display = 'none';
+    }
+  });
+}
+
+corFiltro.addEventListener('change', filtrarCha);
+catFiltro.addEventListener('change', filtrarCha);
