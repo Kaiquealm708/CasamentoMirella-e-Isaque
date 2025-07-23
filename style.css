@@ -92,8 +92,8 @@ footer {
 /* HOVER agora aumenta 10% do tamanho atual */
 .one {
   transition: transform 0.3s ease;
-  width: 43%;
-  height: 43%;
+  width: 42%;
+  height: 42%;
 }
 
 .one:hover {
