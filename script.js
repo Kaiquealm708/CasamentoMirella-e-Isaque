@@ -19,13 +19,8 @@ window.onload = () => {
   mostrarCasamento();
 };
 
-// voltar para página incial
-function homePage() {
-  window.location = ('/index.html');
-}
-
 // CONTAGEM REGRESSIVA
-const dataCasamento = new Date("2026-02-22T15:00:00").getTime();
+const dataCasamento = new Date("2026-03-01T15:00:00").getTime();
       const timer = document.getElementById("timer");
 
       const intervalo = setInterval(() => {
